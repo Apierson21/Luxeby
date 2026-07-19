@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Tracking</title>
+    <style>
+        a:link{
+            background-color: transparent;
+            text-decoration: none;
+            color:#ffffff
+        }
+        a:visited{
+            background-color: transparent;
+            text-decoration: none;
+            color: #ffffff;
+        }
+        a:active{
+            color: #ffffff;
+        }
+       
+         a:link{
+            background-color: transparent;
+            text-decoration: none;
+            color:#ffffff
+        }
+        a:visited{
+            background-color: transparent;
+            text-decoration: none;
+            color: #ffffff;
+        }
+        a.footer:active{
+            color: #ffffff;
+        }
+
+
+        .button{
+            color:#ffffff;
+            margin: 8px 6px;
+            background-color:#a4b792;
+            font-size:x-large;
+           
+            text-align: center;
+        }
+
+        input[type=text], select {
+            width: 50%;
+            padding: 9px;
+            margin: 8px 0;
+    
+            border: 1px solid #ccc;
+            border-radius: 1px;
+            box-sizing: border-box;
+        }
+
+    </style>
+</head>
+<body>
+     <!--This section refers to the "Header"-->
+        <header style="background-color: black; position: sticky; top: 0%; color: #ffffff;">
+            <a href="home.html">
+            <img src="LUXELOGO.jpg" alt="c"
+            style="height: auto; width: 15%; display: block; margin-left: auto; margin-right: auto; padding-bottom: 53;top: 20%; ">
+            </a>
+
+            <p>
+                <ul style=" list-style-type: none; text-align:center; padding: 0%; display: flex; justify-content: center; padding-bottom: 1%; height: auto; font-size: large;">
+                    <li style="padding-right: 5%; padding-left: 3%; text-decoration: none;"><a href="home.html">Home</a></li>
+                    <li style="padding-right: 5%; text-decoration: none;"><a href="ordertrack.html">Order Tracking</a></li>
+                    <li style="padding-right: 3%; text-decoration: none;"><a href="faq.html">FAQ</a></li>
+                </ul>
+            </p>
+
+        </header>
+
+
+        <h1 style="text-align: center; padding-top: 3% ;">Track Your Order</h1>
+
+        <p style="text-align: center; padding-bottom: 5%;">
+           If you have any questions regarding your order, please refer to our "Shipping Policy" page for additional information.
+
+
+       
+
+        
+            <form style="text-align: center;">
+                <input type="text" id="tracknum" name="tracknum" size="30"><br><br>
+                <button style="padding-left: 2%; padding-right: 2%;" class="button" type="button" onclick="alert('The tracking number provided is not yet available. Please try again later, as tracking information may take some time to update.')">Track</button>
+         
+                
+            </form>
+            <br>
+
+            
+      
+
+
+
+
+    <footer style="background-color: #a4b792;">
+
+        <section>
+
+            <h2 style="text-align: center; font-size: 40px;">
+                Stay In The Loop
+            </h2>
+            <p style="text-align: center;">
+                Subscribe to be the first to hear about new sales and receive exclusive offers!
+            </p>
+            
+            <div style="text-align: center;">
+            <form action="">
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="Enter Your Email"
+                    required
+                    >
+                <button type="submit">&#8594;</button>
+            </form>
+            </div>
+            <br></br>
+        </section>
+        
+        <p>
+                <ul style="color: #000000; list-style-type: none; text-align:center; padding: 0%; display: flex; justify-content: center; padding-bottom: 1%; height: auto; font-size: medium; text-decoration: none;">
+                    <li style="padding-right: 5%; padding-left: 3%;"><a href="ordertrack.html">Track Order</a></li>
+                    <li style="padding-right: 5%;"><a href="refundpolicy.html">Refund Policy</a></li>
+                    <li style="padding-right: 5%;"><a href="shippingpolicy.html">Shipping Policy</a></li>
+                    <li style="padding-right: 5%;"><a href="privacypolicy.html"> Privacy Policy</a></li>
+                    <li style="padding-right: 5%;"><a href="TermsofService.html">Terms of Service</a></li>
+                </ul>
+        </p>
+        <hr>
+
+        <p style="text-align: center; font-size: small; padding-top: 1%; padding-bottom: 1%;"> &copy; 2026, Luxeby. All rights reserved.</p>
+    
+    
+    </footer>
+</body>
+</html>
